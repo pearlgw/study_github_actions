@@ -16,7 +16,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
-          port: ${{ secrets.SSH_PORT }}  # <-- Tambahkan ini
+          port: ${{ secrets.SSH_PORT }} 
           script: |
             cd /home/gayuh_widyanata/projek_laravel/study_github_actions
             git pull origin master
